@@ -1,0 +1,241 @@
+/*
+Name: Kyler Yates
+University Name: SIUC
+Date Developed: 5/5/2022
+Date Tested: 5/6/2022
+*/
+
+table, th, td {
+
+border: 1px solid black;
+
+}
+
+table {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+td {
+    font-size: 1.5em;
+}
+
+.budget {
+
+    align-self: left;
+    
+    }
+    
+    .mid {
+    
+    align-self: center;
+    
+    }
+    
+    .deluxe {
+    
+    align-self: right;
+    
+    }
+
+@media only screen and (max-width: 4000px) {
+
+h1 {
+    font-size: 1.75em;
+    padding: 10px;
+    }
+
+h2 {
+    font-size: 1.5em;
+    padding: 10px;
+    }
+
+h3 {
+    font-size: 1.125em;
+    padding: 10px;
+    }
+#mobile_menu {
+    display: none;
+    }
+
+}
+
+.images-container {
+    background-color: black;
+}
+
+.images-container img{
+    width: 100%;
+    height: 100%;
+}
+
+.fade::after {
+    content: "We work hard!";
+    background: black;
+    width: 100%
+    height: 100%
+    position: absolute;
+    top: 0;
+    left 0;
+    opacity: 0;
+    transition: opacity: 0.5s ease;
+}
+
+.fade:hover::after {
+    opacity: 0.5;
+}
+
+@media only screen and (max-width: 959px) {
+
+h1 {
+    font-size: 1.75em;
+    padding: 10px;
+    }
+
+h2 {
+    font-size: 1.5em;
+    padding: 10px;
+    }
+
+h3 {
+    font-size: 1.125em;
+    padding: 10px;
+    }
+#mobile_menu {
+    display: none;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+#mobile_menu {
+    display: block;
+    }
+#nav_menu {
+    display: none;
+    }
+
+header h2 {
+    font-size: 1.375em;
+    }
+header h3 {
+    font-size: .8125em;
+    }
+p { font-size: .875em;
+    }
+h1 {
+    font-size: 2.5em;
+    padding: 10px;
+    }
+
+background-color: babyblue;
+header {
+    display: flex;
+    }
+
+}
+
+@media only screen and (max-width: 479px) {
+
+#mobile_menu {
+    display: block;
+    }
+#nav_menu {
+    display: none;
+    }
+header h2 {
+    font-size: 1.375em;
+    }
+header h3 {
+    font-size: .8125em;
+    }
+p { font-size: .875em;
+    }
+h1 {
+    font-size: 2.5em;
+    padding: 10px;
+    }
+
+header {
+    display:flex;
+    }
+
+}
+
+p.virus1 {
+    text-align: left;
+}
+
+body {
+
+    font-size: 1em;
+    width: 90%
+    max-width 1024px;
+    background-color: lightcoral;
+    margin: 10px auto;
+
+    }
+header {
+    width: 97.917%;
+    padding: 10px 1.0417%;
+    clear: both;
+    font-size: 2em;
+    }
+
+p {
+    font-size: 1.5em;
+    padding-left: 10px 1.0417%;
+    padding-right: 10px;
+
+}
+
+ul {
+
+    padding-left: 10px;
+}
+
+li {
+    padding-left: 10px;
+
+   }
+
+main {
+  height: 350px;
+  width: 50%;
+  float: left;
+  font-size: 13px;
+ }
+
+aside {
+  width: 50%;
+  float: right;
+  font-size: 13px;
+}
+}
+}
+
+}
+
+#nav_menu ul {
+    display: flex;
+    flex-basis: 100%;
+
+    justify-content: space-between;
+    list-style-type: none; padding: 1em 0;
+    font-size: 1.9em;
+    text-align: left;
+    background-color: darkblue;
+    }
+
+#nav_menu ul li {
+    display: inline;
+    padding: 0 1em;
+    }
+#nav_menu ul li a {
+    font-weight: bold;
+    color: #ffffff;
+    }
+#nav_menu ul li a.current {
+    text-decoration: none;
+    }
